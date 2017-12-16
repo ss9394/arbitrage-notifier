@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ json-simple-1.1.jar
+Class-Path: .
+Rsrc-Main-Class: ticker.MainTicker
+Main-Class: ticker.MainTicker
