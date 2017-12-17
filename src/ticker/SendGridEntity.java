@@ -34,6 +34,10 @@ public class SendGridEntity {
 		if(profit > 10000) {
 			this.FROM = "1000plusprofit@ticker.com";
 		}
+
+		if(profit < 4500) {
+			this.BODY = this.BODY + " <br> <b> NOTE: </b> You will be notified next only when profit crosses 4500+";
+		}
 		
 		System.out.println(this.BODY);
 	}
