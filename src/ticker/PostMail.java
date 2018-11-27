@@ -9,7 +9,7 @@ import java.net.URL;
 public class PostMail {
 
 	String URL1 = "https://api.sendgrid.com/v3/mail/send";
-	String SENDGRID_API_KEY = "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";
+	String SENDGRID_API_KEY = "---";
 	
 
 	public void sendGet(String profit, SendGridEntity gridBody) {
